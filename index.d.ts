@@ -16,19 +16,29 @@
 * limitations under the License.
 */
 
-import isCollection = require( './index' );
+// TypeScript Version: 2.0
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { Collection } from '@stdlib/types/array';
+
+/**
+* Tests if a value is a collection.
+*
+* @param value - value to test
+* @returns boolean indicating whether a value is a collection
+*
+* @example
+* var bool = isCollection( [] );
+* // returns true
+*
+* @example
+* var bool = isCollection( {} );
+* // returns false
+*/
+declare function isCollection( value: any ): value is Collection;
 
 
-// TESTS //
+// EXPORTS //
 
-// The function returns a boolean...
-{
-	isCollection( [] ); // $ExpectType boolean
-	isCollection( {} ); // $ExpectType boolean
-}
-
-// The compiler throws an error if the function is provided an unsupported number of arguments...
-{
-	isCollection(); // $ExpectError
-	isCollection( [], 123 ); // $ExpectError
-}
+export = isCollection;
