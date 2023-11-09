@@ -167,6 +167,7 @@ bool = isCollection( 3.14 );
 ## See Also
 
 -   <span class="package-name">[`@stdlib/assert-is-array-like`][@stdlib/assert/is-array-like]</span><span class="delimiter">: </span><span class="description">test if a value is array-like.</span>
+-   <span class="package-name">[`@stdlib/assert-is-array-like-object`][@stdlib/assert/is-array-like-object]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object.</span>
 
 </section>
 
@@ -250,6 +251,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 <!-- <related-links> -->
 
 [@stdlib/assert/is-array-like]: https://github.com/stdlib-js/assert-is-array-like
+
+[@stdlib/assert/is-array-like-object]: https://github.com/stdlib-js/assert-is-array-like-object
 
 <!-- </related-links> -->
 
