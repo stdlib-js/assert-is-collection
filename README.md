@@ -52,7 +52,7 @@ A collection is defined as either an [`Array`][mdn-array], [`Typed Array`][mdn-t
 To use in Observable,
 
 ```javascript
-isCollection = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-collection@umd/browser.js' )
+isCollection = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-collection@v0.2.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -64,7 +64,7 @@ var isCollection = require( 'path/to/vendor/umd/assert-is-collection/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-collection@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-collection@v0.2.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -111,7 +111,7 @@ var bool = isCollection( [] );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-uint32@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-collection@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-collection@v0.2.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
