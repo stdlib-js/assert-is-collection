@@ -50,7 +50,7 @@ A collection is defined as either an [`Array`][mdn-array], [`Typed Array`][mdn-t
 ## Usage
 
 ```javascript
-import isCollection from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-collection@esm/index.mjs';
+import isCollection from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-collection@v0.2.1-esm/index.mjs';
 ```
 
 #### isCollection( value )
@@ -89,7 +89,7 @@ import Int32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int32@esm/in
 import Uint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint32@esm/index.mjs';
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import isCollection from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-collection@esm/index.mjs';
+import isCollection from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-collection@v0.2.1-esm/index.mjs';
 
 var bool = isCollection( [] );
 // returns true
