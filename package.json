@@ -39,7 +39,8 @@
   "dependencies": {
     "@stdlib/constants-array-max-typed-array-length": "^0.2.1",
     "@stdlib/math-base-assert-is-integer": "^0.2.4",
-    "@stdlib/types": "^0.3.2"
+    "@stdlib/types": "^0.3.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
   },
   "devDependencies": {
     "@stdlib/array-float32": "^0.2.1",
