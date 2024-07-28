@@ -50,6 +50,11 @@ A collection is defined as either an [`Array`][mdn-array], [`Typed Array`][mdn-t
 ## Usage
 
 ```javascript
+import isCollection from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-collection@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-collection/tags). For example,
+
+```javascript
 import isCollection from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-collection@v0.2.2-esm/index.mjs';
 ```
 
@@ -89,7 +94,7 @@ import Int32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int32@esm/in
 import Uint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint32@esm/index.mjs';
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import isCollection from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-collection@v0.2.2-esm/index.mjs';
+import isCollection from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-collection@esm/index.mjs';
 
 var bool = isCollection( [] );
 // returns true
