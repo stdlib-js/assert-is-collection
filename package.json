@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-collection",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Test if a value is a collection.",
   "license": "Apache-2.0",
   "author": {
@@ -37,8 +37,8 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/constants-array-max-typed-array-length": "^0.2.2",
-    "@stdlib/math-base-assert-is-integer": "^0.2.6",
+    "@stdlib/constants-array-max-typed-array-length": "^0.2.3",
+    "@stdlib/math-base-assert-is-integer": "^0.2.7",
     "@stdlib/types": "^0.4.3"
   },
   "devDependencies": {
