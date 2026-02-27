@@ -41,7 +41,7 @@ A collection is defined as either an [`Array`][mdn-array], [`Typed Array`][mdn-t
 
 </section>
 
-<!-- ./intro -->
+<!-- /.intro -->
 
 <section class="installation">
 
@@ -134,10 +134,10 @@ bool = isCollection( new Uint8Array( 10 ) );
 bool = isCollection( new Uint8ClampedArray( 10 ) );
 // returns true
 
-bool = isCollection( { 'length': 0 } );
+bool = isCollection({ 'length': 0 });
 // returns true
 
-bool = isCollection( {} );
+bool = isCollection({});
 // returns false
 
 bool = isCollection( 'beep' );
